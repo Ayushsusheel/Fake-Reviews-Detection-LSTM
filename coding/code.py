@@ -1,7 +1,7 @@
 Algorithm :
 
 1. LSTM-Based Fake Review Classification
-
+ 
 
 1. procedure LSTMClassifier
 2. D ← LoadDataset()
