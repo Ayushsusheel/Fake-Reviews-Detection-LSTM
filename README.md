@@ -1,9 +1,7 @@
 # Fake-Reviews-Detection-LSTM
   
 
-Abstract :
-
-The growing volume of fake reviews undermines consumer trust and distorts product evaluations on e-commerce platforms. Current detection techniques often depend on single features or require extensive, quickly outdated manually labelled datasets, rendering traditional classifiers like logistic regression and Support Vector Machine less effective against dynamic spamming strategies. To address this, we propose a lightweight Long Short-Term Memory-based framework that models sequential word patterns and integrates contextual cues by combining category labels, star ratings, and review text into a single cleaned sequence. This integrated sequence is processed by a compact neural network comprising an embedding layer, a Long Short Term Memory encoder to learn intricate dependencies and a simple classification layer. This proposed study achieved a peak accuracy of 95.54%, demonstrating superior performance over traditional methods and highlighting the effectiveness of sequence-sensitive modelling for fake review detection.  
+The rapid increase in fake reviews on e-commerce platforms has significantly weakened consumer trust and distorted product evaluations. Many existing detection approaches rely on isolated features or heavily depend on large, manually labelled datasets that quickly become outdated, making traditional classifiers such as Logistic Regression and Support Vector Machines less effective against evolving spamming tactics. To overcome these limitations, this study proposes a lightweight Long Short-Term Memory (LSTM)–based framework that captures sequential word patterns while incorporating contextual information. Category labels, star ratings, and review text are combined into a single cleaned sequence and processed through a compact neural network consisting of an embedding layer, an LSTM encoder to learn complex dependencies, and a simple classification layer. The proposed model achieves a peak accuracy of 95.54%, outperforming traditional methods and demonstrating the effectiveness of sequence-aware modelling for robust fake review detection.
  
  
    
